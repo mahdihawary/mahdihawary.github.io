@@ -5,26 +5,27 @@ import HomePage from "./pages/Home";
 import AboutPage from "./pages/about";
 import ProjectsPage from "./pages/projects";
 import NavBar from "./components/navBar";
-import ProjectPage from "./pages/projectPage";
 import NotFound from "./pages/notfound";
+import Container from "@mui/material/Container";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
         <NavBar />
-        <div id="page-body">
+        <Container
+          id="page-body"
+          maxWidth="sm"
+          sx={{ height: "100vh", width: "100vw" }}
+          duration={3000}
+        >
           <Routes>
             <Route path="/" element={<HomePage />}></Route>
             <Route path="/about" element={<AboutPage />}></Route>
             <Route path="/projects" element={<ProjectsPage />}></Route>
             <Route path="*" element={<NotFound />}></Route>
-            <Route
-              path="/projects/:projectId"
-              element={<ProjectPage />}
-            ></Route>
           </Routes>
-        </div>
+        </Container>
       </div>
     </BrowserRouter>
   );

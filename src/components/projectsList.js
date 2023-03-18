@@ -1,18 +1,19 @@
+import { Grid } from "@mui/material";
+import { Box, Container } from "@mui/system";
 import { Link } from "react-router-dom";
+import ProjectCard from "./projectCard";
 const ProjectsList = ({ projects }) => {
+  console.log(projects);
   return (
-    <>
-      {projects.map((proj) => (
-        <Link
-          key={proj.name}
-          className="project-list-item"
-          to={`/projects/${proj.name}`}
-        >
-          <h3>{proj.title}</h3>
-          <p>{proj.content.substring(0, 150)}...</p>
-        </Link>
+    <Grid container spacing={2} sx={{ paddingTop: 5 }}>
+      {projects.map((project) => (
+        <Grid item xs={6} key={project.name}>
+          <Box sx={{ width: 1 / 2, color: "primary.main" }}>
+            <ProjectCard project={project}></ProjectCard>
+          </Box>
+        </Grid>
       ))}
-    </>
+    </Grid>
   );
 };
 
