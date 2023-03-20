@@ -9,26 +9,26 @@ const projects = [
     skills:
       "React, Redux REST, Javascript, Ruby-on-Rails, Functional, Programming",
   },
-  {
-    name: "Charrack2",
-    title: "Dungeons and Dragons character creator",
-    description:
-      "An app that uses the dungeons and dragons ruleset to create characters up to level 5. Uses a React Redux front-end and a ruby on rails restful api back-end.",
-    github: "https://github.com/mahdihawary/char-sheet-front",
-    image: "../images/charrack.png",
-    skills:
-      "React, Redux REST, Javascript, Ruby-on-Rails, Functional, Programming",
-  },
-  {
-    name: "Charrack3",
-    title: "Dungeons and Dragons character creator",
-    description:
-      "An app that uses the dungeons and dragons ruleset to create characters up to level 5. Uses a React Redux front-end and a ruby on rails restful api back-end.",
-    github: "https://github.com/mahdihawary/char-sheet-front",
-    image: "../images/charrack.png",
-    skills:
-      "React, Redux REST, Javascript, Ruby-on-Rails, Functional, Programming",
-  },
+  //   {
+  //     name: "Charrack2",
+  //     title: "Dungeons and Dragons character creator",
+  //     description:
+  //       "An app that uses the dungeons and dragons ruleset to create characters up to level 5. Uses a React Redux front-end and a ruby on rails restful api back-end.",
+  //     github: "https://github.com/mahdihawary/char-sheet-front",
+  //     image: "../images/charrack.png",
+  //     skills:
+  //       "React, Redux REST, Javascript, Ruby-on-Rails, Functional, Programming",
+  //   },
+  //   {
+  //     name: "Charrack3",
+  //     title: "Dungeons and Dragons character creator",
+  //     description:
+  //       "An app that uses the dungeons and dragons ruleset to create characters up to level 5. Uses a React Redux front-end and a ruby on rails restful api back-end.",
+  //     github: "https://github.com/mahdihawary/char-sheet-front",
+  //     image: "../images/charrack.png",
+  //     skills:
+  //       "React, Redux REST, Javascript, Ruby-on-Rails, Functional, Programming",
+  //   },
   //   {
   //     name: "Fit-Track",
   //     title: "Fitness tracker with data visualization",
