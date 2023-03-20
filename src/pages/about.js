@@ -34,7 +34,7 @@ const AboutPage = function () {
         >
           <Container>
             <Typography>
-              This is a description of my background as a developer
+              This is a description of my background as a developer.
             </Typography>
           </Container>
           <Container>
