@@ -31,7 +31,7 @@ const HomePage = function () {
       </Container>
 
       <Button
-        href="/projects"
+        href={process.env.PUBLIC_URL + "/Projects"}
         variant="filled"
         sx={{ backgroundColor: "black", width: "30%" }}
       >
