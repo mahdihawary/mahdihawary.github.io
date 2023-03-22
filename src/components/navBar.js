@@ -41,7 +41,7 @@ const NavBar = () => {
               variant="h6"
               noWrap
               component="a"
-              href={process.env.PUBLIC_URL + "/"}
+              href="#/"
               sx={{
                 mr: 2,
                 display: { xs: "none", md: "flex" },
@@ -88,9 +88,7 @@ const NavBar = () => {
                 {pages.map((page) => (
                   <MenuItem key={page} onClick={handleCloseNavMenu}>
                     <Typography textAlign="center">
-                      <Link to={process.env.PUBLIC_URL + `/${page}`}>
-                        {page}
-                      </Link>
+                      <Link to={`#/${page}`}>{page}</Link>
                     </Typography>
                   </MenuItem>
                 ))}
@@ -118,7 +116,7 @@ const NavBar = () => {
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               {pages.map((page) => (
                 <Button
-                  href={process.env.PUBLIC_URL + `/${page}`}
+                  href={`#/${page}`}
                   key={page}
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "white", display: "block" }}
