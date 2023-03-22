@@ -1,6 +1,5 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { HashRouter as Router, Switch } from "react-router-dom";
 import React from "react";
 import HomePage from "./pages/Home";
 import AboutPage from "./pages/about";
@@ -14,7 +13,7 @@ import Sider from "./components/sider";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div
         className="App"
         style={{
@@ -45,7 +44,7 @@ function App() {
         </Container>
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
