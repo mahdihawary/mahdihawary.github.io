@@ -32,7 +32,6 @@ const HomePage = function () {
       </Container>
 
       <Button
-        href="/Projects"
         variant="contained"
         sx={{ backgroundColor: "black", width: "30%" }}
       >
