@@ -1,5 +1,6 @@
-import { Button, Typography, Link } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 import { Container } from "@mui/system";
+import { Link } from "react-router-dom";
 
 const HomePage = function () {
   return (
