@@ -35,10 +35,22 @@ function App() {
           duration={3000}
         >
           <Routes>
-            <Route path="/" element={<HomePage />}></Route>
-            <Route path="/about" element={<AboutPage />}></Route>
-            <Route path="/projects" element={<ProjectsPage />}></Route>
-            <Route path="/Contact" element={<ContactPage />}></Route>
+            <Route
+              path={process.env.PUBLIC_URL + "/"}
+              element={<HomePage />}
+            ></Route>
+            <Route
+              path={process.env.PUBLIC_URL + "/About"}
+              element={<AboutPage />}
+            ></Route>
+            <Route
+              path={process.env.PUBLIC_URL + "/Projects"}
+              element={<ProjectsPage />}
+            ></Route>
+            <Route
+              path={process.env.PUBLIC_URL + "/Contact"}
+              element={<ContactPage />}
+            ></Route>
             <Route path="*" element={<NotFound />}></Route>
           </Routes>
         </Container>
