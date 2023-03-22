@@ -34,7 +34,14 @@ const AboutPage = function () {
         >
           <Container>
             <Typography>
-              This is a description of my background as a developer.
+              Hello! Thank you for visiting my about page. I am a fullstack web
+              developer specializing in Javascript, React and Rails. Feel free
+              to explore my projects🙂.
+            </Typography>
+            <Typography>
+              I'm open to Job opportunities where I can contribute, learn and
+              grow. If you have a good opportunity that matches my skills and
+              experience then don't hesitate to contact me.
             </Typography>
           </Container>
           <Container>
@@ -74,9 +81,6 @@ const AboutPage = function () {
               </Grid>
               <Grid item>
                 <Item> Github</Item>
-              </Grid>
-              <Grid item>
-                <Item> Time Management</Item>
               </Grid>
             </Grid>
           </Container>

@@ -15,10 +15,15 @@ const Footer = () => {
           display: "flex",
         }}
       >
-        <Typography level="body2">MahdiHawary</Typography>
-
-        <Typography level="body3" sx={{ ml: "auto" }}>
+        <Typography level="body2">©2023 Made By Mahdi Hawary</Typography>
+        {/* <Typography level="body3" sx={{ ml: "auto" }}>
           ©2023 Made By Mahdi Hawary
+        </Typography> */}
+        <Typography level="body3" sx={{ ml: "auto" }}>
+          <a href="https://www.freepik.com/free-vector/elegant-white-background-with-shiny-lines_4077186.htm#query=subtle%20background&position=2&from_view=keyword&track=ais">
+            Background by starline
+          </a>{" "}
+          on Freepik
         </Typography>
       </Box>
     </Container>

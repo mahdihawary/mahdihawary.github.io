@@ -4,7 +4,16 @@ body {
 
 .App {
   text-align: center;
-  background-color: #4a4a4d;
+  background-image: url("https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?w=740&t=st=1679512510~exp=1679513110~hmac=f11133fb055b597c82b02ab2f430f8690715d439ffdb8958033d65180f565fd9");
+  background-repeat: "no-repeat";
+  background-position: "center";
+  width: "100vw";
+  min-height: "100vh";
+  /* background-color: #4a4a4d; */
+
+  /* background-size: "cover";
+         
+          */
 }
 
 a {

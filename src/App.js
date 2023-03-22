@@ -9,15 +9,28 @@ import NotFound from "./pages/notfound";
 import Container from "@mui/material/Container";
 import ContactPage from "./pages/contactPage";
 import Footer from "./components/footer";
+import Sider from "./components/sider";
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div
+        className="App"
+        style={{
+          backgroundImage:
+            "/elegant-white-background-withshiny-lines/17580.jpg",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+          width: "100vw",
+          minHeight: "100vh",
+        }}
+      >
         <NavBar />
+        <Sider />
         <Container
           id="page-body"
-          maxWidth="sm"
+          maxWidth="md"
           sx={{ height: "100vh", width: "100vw", color: "white" }}
           duration={3000}
         >
