@@ -35,7 +35,12 @@ const HomePage = function () {
         variant="contained"
         sx={{ backgroundColor: "black", width: "30%" }}
       >
-        Projects
+        <Link
+          to="/Projects"
+          sx={{ color: "inherit", textDecoration: "inherit" }}
+        >
+          Projects
+        </Link>
       </Button>
     </>
   );
