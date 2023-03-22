@@ -41,7 +41,6 @@ const NavBar = () => {
               variant="h6"
               noWrap
               component="a"
-              href="/"
               sx={{
                 mr: 2,
                 display: { xs: "none", md: "flex" },
@@ -53,7 +52,7 @@ const NavBar = () => {
               }}
             >
               <img src="/assets/images/Profilepic.jpeg" className="profile" />
-              Mahdi Hawary
+              <Link to="/">Mahdi Hawary</Link>
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -86,11 +85,11 @@ const NavBar = () => {
                 }}
               >
                 {pages.map((page) => (
-                  <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">
-                      <Link to={`/${page}`}>{page}</Link>
-                    </Typography>
-                  </MenuItem>
+                  <Link to={`/${page}`}>
+                    <MenuItem key={page} onClick={handleCloseNavMenu}>
+                      <Typography textAlign="center">{page}</Typography>
+                    </MenuItem>
+                  </Link>
                 ))}
               </Menu>
             </Box>
