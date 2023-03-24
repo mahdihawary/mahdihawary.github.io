@@ -13,8 +13,7 @@ const projects = [
     title: "Game Site",
     description:
       "An app that has 2 games that are created by manipulating the DOM using vanilla Javascript, CSS, and HTML",
-    github: "https://github.com/mahdihawary/char-sheet-front",
-    image: "../images/GameSite.png",
+    github: "https://github.com/mahdihawary/GameSite"
     skills: "CSS, Javascript, HTML, DOM manipulation",
   },
   //   {
