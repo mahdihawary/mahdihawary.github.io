@@ -6,8 +6,16 @@ const projects = [
       "An app that uses the dungeons and dragons ruleset to create characters up to level 5. Uses a React Redux front-end and a ruby on rails restful api back-end.",
     github: "https://github.com/mahdihawary/char-sheet-front",
     image: "../images/charrack.png",
-    skills:
-      "React, Redux REST, Javascript, Ruby-on-Rails, Functional, Programming",
+    skills: "React, Redux, REST, Javascript, Ruby-on-Rails, Functional, OOP",
+  },
+  {
+    name: "GameSite",
+    title: "Game Site",
+    description:
+      "An app that has 2 games that are created by manipulating the DOM using vanilla Javascript, CSS, and HTML",
+    github: "https://github.com/mahdihawary/char-sheet-front",
+    image: "../images/GameSite.png",
+    skills: "CSS, Javascript, HTML, DOM manipulation",
   },
   //   {
   //     name: "Charrack2",
