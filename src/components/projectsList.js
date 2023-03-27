@@ -3,7 +3,6 @@ import { Box, Container } from "@mui/system";
 import { Link } from "react-router-dom";
 import ProjectCard from "./projectCard";
 const ProjectsList = ({ projects }) => {
-  console.log(projects);
   return (
     <Grid container spacing={2} sx={{ paddingTop: 5 }}>
       {projects.map((project) => (

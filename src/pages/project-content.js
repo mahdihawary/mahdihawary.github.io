@@ -1,3 +1,6 @@
+import charrack from "../img/charrack.png";
+import game from "../img/game.png";
+
 const projects = [
   {
     name: "Charrack",
@@ -5,7 +8,7 @@ const projects = [
     description:
       "An app that uses the dungeons and dragons ruleset to create characters up to level 5. Uses a React Redux front-end and a ruby on rails restful api back-end.",
     github: "https://github.com/mahdihawary/char-sheet-front",
-    image: "../images/charrack.png",
+    image: charrack,
     skills: "React, Redux, REST, Javascript, Ruby-on-Rails, Functional, OOP",
   },
   {
@@ -14,8 +17,9 @@ const projects = [
     description:
       "An app that has 2 games that are created by manipulating the DOM using vanilla Javascript, CSS, and HTML",
     github: "https://github.com/mahdihawary/GameSite",
-    image: "../images/charrack.png",
+    image: game,
     skills: "CSS, Javascript, HTML, DOM manipulation",
+    link: "https://mahdihawary.github.io/GameSite/",
   },
   //   {
   //     name: "Charrack2",

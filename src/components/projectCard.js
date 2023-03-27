@@ -9,15 +9,16 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import React from "react";
 
 const ProjectCard = ({ project }) => {
-  console.log(project);
   const card = (
     <React.Fragment>
-      <CardMedia
-        component="img"
-        height="200"
-        image="/assets/images/charrack.png"
-        alt={project.name}
-      />
+      <a href={project.link}>
+        <CardMedia
+          component="img"
+          height="200"
+          src={project.image}
+          alt={project.name}
+        />
+      </a>
 
       <CardContent>
         <Typography sx={{ color: "white" }}>{project.description}</Typography>
